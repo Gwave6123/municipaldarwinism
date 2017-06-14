@@ -14,7 +14,7 @@ function loadcheck(){
 function newgame(){
 	var expire = new Date;
 	expire.setDate(expire.getDate()+14);
-	document.cookie = "username=municipaldarwinism; expires=" + expire + "; path=/";
+	document.cookie = "municipaldarwinism=0; expires=" + expire + "; path=/";
 
 }
 function main(){
