@@ -1,6 +1,6 @@
 
 function loadcheck(){
-	if (document.cookie.indexOf("municipaldarwinism=") >= 0){
+	if (document.cookie.indexOf("username=") >= 0){
 		window.alert("Found Cookies");
 		
 		return 1;
